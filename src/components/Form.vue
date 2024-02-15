@@ -50,7 +50,16 @@ export default {
         return;
       }
 
-      axios.post('https://my-json-server.typicode.com/ColaXin/vue3/db.json')
+      axios.post('https://my-json-server.typicode.com/ColaXin/vue3/', {
+        names: this.event.name,
+        emails: this.event.email,
+        comments: this.event.message
+      }).then(function (response) {
+        console.log('Response', response)
+            .catch(function(Error) {
+              console.log('Error!', error)
+            })
+      })
     }
   }
 };
