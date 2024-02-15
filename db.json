@@ -1,5 +1,40 @@
 {
-  "names": [],
-  "emails": [],
-  "comments": []
+  "formData": [
+    {
+      "id": "c37c",
+      "name": "Mikkel",
+      "email": "mikkel@bentzrud.no",
+      "message": "tullegutt"
+    },
+    {
+      "id": "680c",
+      "name": "for nå",
+      "email": "funker@dette.no",
+      "message": "heltok"
+    },
+    {
+      "id": "79c6",
+      "name": "test",
+      "email": "mikkel@bentzrud.no",
+      "message": "yep"
+    },
+    {
+      "id": "7708",
+      "name": "Mihel",
+      "email": "mikkel@bentzrud.no",
+      "message": "slem"
+    },
+    {
+      "id": "e8a4",
+      "name": "Mikkel",
+      "email": "mikkel@bentzrud.no",
+      "message": "restititas"
+    },
+    {
+      "id": "01bb",
+      "name": "Mikkel",
+      "email": "mikkel@bentzrud.no",
+      "message": "storeiform"
+    }
+  ]
 }
