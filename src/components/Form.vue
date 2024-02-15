@@ -21,6 +21,8 @@ const validateEmail = (email) => {
 </script>
 
 <script>
+import axios from "axios";
+
 export default {
   data() {
     return {
@@ -48,9 +50,7 @@ export default {
         return;
       }
 
-      axios.po
-
-
+      axios.post('https://my-json-server.typicode.com/ColaXin/vue3/db.json')
     }
   }
 };
